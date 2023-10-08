@@ -1,0 +1,207 @@
+/* Updated CSS with class names */
+.background-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: #ffffff;
+  }
+  
+  .login-form {
+    height: 610px;
+    width: 462px;
+    background-color: rgba(255, 255, 255, 0.13);
+    
+   
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 72px 42px;
+  }
+  
+  .login-form * {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+  }
+  
+  .login-form h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .login-form input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .login-form ::placeholder {
+    color: #e5e5e5;
+  }
+  
+  .login-button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .social {
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  .social div {
+    background: red;
+    width: 70px;
+    border-radius: 3px;
+    padding: 5px 10px 10px 5px;
+    background-color: rgba(255, 255, 255, 0.27);
+    color: #eaf0fb;
+    text-align: center;
+  }
+  
+  .social div:hover {
+    background-color: rgba(255, 255, 255, 0.47);
+  }
+  
+  .social .fb {
+    margin-left: 25px;
+  }
+  
+  .social i {
+    margin-right: 4px;
+  }
+  
+  .glassIco {
+    --width: 50px;
+    &, & * { box-sizing: border-box; transition: 200ms; }
+    width: var(--width);
+    height: var(--width);
+    color: #fff;
+    font-size: 30px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    margin: 20px;
+    margin-left: 24px;
+    overflow: hidden;
+  }
+  
+  .glassIco:hover {
+    transform: translateY(-20px);
+  }
+  
+  .glassIco::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 30%;
+    background: rgba(255, 255, 255, 0.5);
+    filter: blur(0px);
+    transition: 400ms;
+    transform: skewX(45deg) translateX(calc(var(--width) + 50%));
+  }
+  
+  .glassIco:hover::before {
+    transform: skewX(45deg) translateX(calc(var(--width) * -1 - 50%));
+  }
+  
+  .signup-form {
+    height: 710px;
+    width: 462px;
+    background-color: rgba(255, 255, 255, 0.13);
+    
+   
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 72px 42px;
+  }
+
+ 
+  
+  .signup-form * {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+  }
+  
+  .signup-form h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .signup-form input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .signup-form ::placeholder {
+    color: #e5e5e5;
+  }
+  
+  .signup-button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
